@@ -1,5 +1,5 @@
 
-## Predicting Bank Client's Cerificate of Deposit Purchase using Scikit Learn and XGBoost for imbalance dataset
+## Predicting Bank Client's Certificate of Deposit Purchase using Scikit Learn and XGBoost for imbalance dataset
 
 This Code Pattern will guide you through how to use `XGBoost`, `Scikit Learn` and `Python` in IBM Watson Studio. The goal is to use a Jupyter notebook and data from the [UCI repository for Bank Marketing Data](http://archive.ics.uci.edu/ml/datasets/Bank+Marketing) to predict if a client will purchase a Certificate of Deposit (CD) from a banking institution.
 
@@ -31,7 +31,7 @@ This Code Pattern will walk the user through the following conceptual steps:
 5. Use Matplotlib and it's higher level package seaborn for creating various visualizations.
 6. Use Scikit Learn to create our ML pipeline to prep our data to be fed into XGBoost. 
 7. Use XGBoost to create and train our ML model.
-8. Evaulate their predictive performance.
+8. Evaluate their predictive performance.
 
 ## Included components
 
@@ -43,7 +43,7 @@ This Code Pattern will walk the user through the following conceptual steps:
 * [Data Science](https://medium.com/ibm-data-science-experience/): Systems and scientific methods to analyze structured and unstructured data in order to extract knowledge and insights.
 * [Python](https://www.python.org/): Python is a programming language that lets you work more quickly and integrate your systems more effectively.
 * [XGBoost](https://github.com/dmlc/xgboost): Extreme Gradient Boosting is decision tree based tools for creating ML model.
-* [Scikit Learn](http://scikit-learn.org/stable/):  A Python library for providing efficient tools for data mining and machine learning.
+* [Scikit Learn](http://scikit-learn.org/stable/): A Python library for providing efficient tools for data mining and machine learning.
 * [Pandas](http://pandas.pydata.org/): A Python library providing high-performance, easy-to-use data structures.
 * [Matplotlib](https://matplotlib.org/): A Python library integrating matplot for visualization.
 * [SeaBorn](https://seaborn.pydata.org/): Another higher level Python library for visualization.
@@ -174,7 +174,7 @@ link that will display a “read-only” version of your notebook. You have seve
 options to specify exactly what you want shared from your notebook:
 
 * `Only text and output`: will remove all code cells from the notebook view.
-* `All content excluding sensitive code cells`:  will remove any code cells
+* `All content excluding sensitive code cells`: will remove any code cells
   that contain a *sensitive* tag. For example, `# @hidden_cell` is used to protect
   your credentials from being shared.
 * `All content, including code`: displays the notebook as is.
@@ -184,7 +184,7 @@ options to specify exactly what you want shared from your notebook:
  
 ### 1. Explore the dataset
 
-The imbalanced dataset is from Purtugese banking institutions, and is based on phone calls to bank clients regarding the purchase of financial products offered by the bank (ie. Certificates of Deposit).
+The imbalanced dataset is from Portugese banking institutions, and is based on phone calls to bank clients regarding the purchase of financial products offered by the bank (ie. Certificates of Deposit).
 
 ### 2. Prepare the data
 
